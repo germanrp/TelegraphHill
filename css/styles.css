@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: calibri light;
+  background: #FFFFBB;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  max-height: 362px;
+  min-height: 362px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 5px 0 5px;
+  border-left: none;
+  border-right: none;
+  width: 250px;
+  margin-left: 37px;
+}
+
+li {
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  background-image: linear-gradient( 90deg, #FFD32E 10px, #EEE 10px, #EEE 11px, transparent 11px);
+  padding: 2px 10px 2px 15px;
+  border: 1px solid #CCC;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+  margin-bottom: 3px;
+  width: 200px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.selectedlist a {
+    padding: 1em; 
+    border: 1px solid #000; 
+    border-radius: 50%; 
+    display: inline-block; 
+    max-width: 19%; 
+    text-decoration: none; 
+    margin-right:1%; 
+    margin-top: .8em;
+}  
+
+.paragraph {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.headline {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -1px;
+    color: #444;
+    margin: 0 0 0 0;
+    padding: 0 0 5px 0;
+    font-weight: 100;
+    
+}
+
+.errormessage {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #ff0000;
+}
